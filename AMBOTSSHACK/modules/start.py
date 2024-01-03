@@ -28,7 +28,3 @@ async def heck_callback(bot : app, query : CallbackQuery):
     await query.message.reply_text(HACK_TEXT,
               reply_markup = HACK_MODS)
 
-@app.on_message(filters.private & filters.incoming)
-async def on_pm_s(bot: app, message: Message):
-    if not message.from_user.id ==OWNER:
-        fwded_mesg = await message.forward(chat_id=OWNER, disable_notification=True)
