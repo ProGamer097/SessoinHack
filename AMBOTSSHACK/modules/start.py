@@ -5,8 +5,8 @@ from pyrogram.types import CallbackQuery
 
 OWNER = "5360305806"
 
-@app.on_message(filters.command("start") & filters.private)
-async def _start(_, message):
+@app.on_message(filters.command("start"))
+async def start(_, message):
     user_id = message.from_user.id
     user = message.from_user.mention
     bot = (await _.get_me()).mention
