@@ -1,0 +1,38 @@
+{
+    "name": "𝐀𝐌𝐁𝐎𝐓",
+    "description": "𝗧𝗛𝗜𝗦 𝗕𝗢𝗧 𝗠𝗔𝗞𝗘 𝗕𝗬 𝐀𝐌𝐁𝐎𝐓",
+    "logo": "",
+    "keywords": [
+        "pytgcalls",
+        "telegram bot",
+        "banall"
+    ],
+    "website": "https://t.me/Sanam_King",
+    "repository": "https://github.com/AbhiModszYT",
+    "success_url": "https://t.me/AMBOTYT",
+    "env": {
+        "TOKEN": {
+            "description": "your bot token",
+            "required": true
+        }
+    },
+    "addons": [],
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        },
+        {
+            "url": "heroku/nodejs"
+        },
+        {
+            "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "Basic"
+        }
+    },
+    "stack": "container"
+    }
