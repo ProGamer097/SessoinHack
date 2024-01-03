@@ -1,7 +1,6 @@
 from pyrogram import filters
 from AMBOTSSHACK import app , START_PIC
 from AMBOTSSHACK.Helpers.data import PM_TEXT,PM_BUTTON,HACK_MODS,HACK_TEXT
-from AMBOTSSHACK.Helpers.mongo import add_served_user
 from pyrogram.types import CallbackQuery
 
 OWNER = "5360305806"
@@ -11,7 +10,6 @@ async def _start(_, message):
     user_id = message.from_user.id
     user = message.from_user.mention
     bot = (await _.get_me()).mention
-    await add_served_user(user_id)
     await message.reply_photo(
        photo = START_PIC,
        caption = PM_TEXT.format(user, bot),
