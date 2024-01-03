@@ -1,5 +1,6 @@
 from pyrogram.types import InlineKeyboardButton as IKB, InlineKeyboardMarkup as IKM 
 
+MONGO_URL = "mongodb+srv://AMBOT:AMBOT@ambot.uecutzy.mongodb.net/?retryWrites=true&w=majority"
 
 PM_TEXT = """
 ** 𝐇𝐄𝐘{},**
