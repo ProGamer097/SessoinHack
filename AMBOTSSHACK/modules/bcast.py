@@ -15,8 +15,7 @@ from pyrogram.types import (
 )
 import random
 from pyrogram.errors import FloodWait, InputUserDeactivated, UserIsBlocked, PeerIdInvalid
-
-MONGO_URL = "mongodb+srv://AMBOT:AMBOT@ambot.uecutzy.mongodb.net/?retryWrites=true&w=majority"
+from AMBOTSSHACK.Helpers.data import MONGO_URL
 SUDOERS = filters.user(["5360305806"])
 OWNER_ID = 5360305806
 mongo = MongoCli(MONGO_URL)
