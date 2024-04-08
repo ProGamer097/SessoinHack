@@ -1,15 +1,15 @@
 {
-    "name": "𝐀𝐌𝐁𝐎𝐓",
-    "description": "𝗧𝗛𝗜𝗦 𝗕𝗢𝗧 𝗠𝗔𝗞𝗘 𝗕𝗬 𝐀𝐌𝐁𝐎𝐓",
+    "name": "Naruto",
+    "description": "𝗧𝗛𝗜𝗦 𝗕𝗢𝗧 𝗠𝗔𝗞𝗘 𝗕𝗬 Naruto ",
     "logo": "",
     "keywords": [
         "pytgcalls",
         "telegram bot",
         "banall"
     ],
-    "website": "https://t.me/Sanam_King",
-    "repository": "https://github.com/AbhiModszYT",
-    "success_url": "https://t.me/AMBOTYT",
+    "website": "https://t.me/naruto_support1",
+    "repository": "https://github.com/ProGamer097/SessoinHack",
+    "success_url": "https://t.me/naruto_support1",
     "env": {
         "TOKEN": {
             "description": "your bot token",
