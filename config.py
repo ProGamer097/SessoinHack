@@ -1,10 +1,10 @@
 from pyrogram import filters
 
 class Config:
-    API_ID = "20136640"
-    API_HASH = "32fa482ffd34ceefec26b7ccd73c4fbb"
-    TOKEN = "6372858522:AAGOvHBU4V63ap346wfSNJRNaXJKwDuxqhI"
-    MONGO_URL = "mongodb+srv://AMBOT:AMBOT@ambot.uecutzy.mongodb.net/?retryWrites=true&w=majority"
-    START_PIC = "https://graph.org/file/5312b0262def592d4505e.jpg"
-    SUDOERS = filters.user(["5916859256"])
-    OWNER_ID = "5916859256"
+    API_ID = "20457610"
+    API_HASH = "b7de0dfecd19375d3f84dbedaeb92537"
+    TOKEN = "6759477059:AAGfOdMwg2bi8MPyFEocmuEwODMhod8AK7k"
+    MONGO_URL = "mongodb+srv://vinamratiwari579:m6YDRYH8HbwuEqxt@cluster0.x7ac1wt.mongodb.net/?retryWrites=true&w=majority"
+    START_PIC = "https://graph.org/file/4681f0896068e3b5e5054.jpg"
+    SUDOERS = filters.user(["6590287973"])
+    OWNER_ID = "6590287973"
